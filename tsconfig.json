@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2021",
+    "allowJs": false, 
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "preserveConstEnums": true
+  },
+  "lib": [
+    "es2021"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "extends": "@tsconfig/node18/tsconfig.json"
+}
